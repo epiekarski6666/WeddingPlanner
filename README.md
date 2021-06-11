@@ -80,8 +80,10 @@ https://weddingplannerpiekarscy.herokuapp.com/
 <br>Aby móc korzystać z dostępnych funkcji należy zalogować się na jedno z dwóch istniejących kont administratorskich:
 <br>wierzbicka@pw.pl password
 <br>ee@ee.pl password
+<br>
 <br>lub na istniejące konto użytkownika (obserwatora)
 <br>hapsia@pw.pl password
+<br>
 <br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
 
 ### Uruchomienie lokalnie
@@ -101,8 +103,10 @@ W celu uruchomienia aplikacji lokalnie należy użyć funkcji „Clone” na rep
 <br>Aby móc korzystać z dostępnych funkcji należy zalogować się na jedno z dwóch istniejących kont administratorskich:
 <br>wierzbicka@pw.pl password
 <br>ee@ee.pl password
+<br>
 <br>lub na istniejące konto użytkownika (obserwatora)
 <br>hapsia@pw.pl password
+<br>
 <br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
 
 ## Funkcje
