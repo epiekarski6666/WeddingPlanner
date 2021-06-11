@@ -1,10 +1,8 @@
 # WeddingPlanner
 <!--
-*** Thanks for checking out the Best-README-Template.
+*** Dziękujemy za przeglądanie pliku REDME
 -->
 
-
-<!-- PROJECT LOGO -->
 ![image](https://user-images.githubusercontent.com/46848957/121599139-edba6480-ca42-11eb-8304-4ec76a584f67.png)
 
   <h3 align="center">Wedding Planner Piekarscy</h3>
@@ -12,25 +10,24 @@
   <p align="center">
     Mamy przyjemność zaprezentować wam nasz Weeding Planner
     <br />
-    <a href="https://github.com/epiekarski6666/WeddinPlannerPiekarscy1/blob/master/README.md"><strong>Explore project</strong></a>
+    <a href="https://github.com/epiekarski6666/WeddinPlannerPiekarscy1/blob/master/README.md"><strong>Przeglądaj pliki</strong></a>
     <br />
     <br />
-    <a href="https://weddingplannerpiekarscy.herokuapp.com/">Open application on server</a>
+    <a href="https://weddingplannerpiekarscy.herokuapp.com/">Otwórz aplikację na serwerze</a>
     ·
-    <a href="https://github.com/epiekarski6666/WeddingPlanner/issues">Report Bug</a>
+    <a href="https://github.com/epiekarski6666/WeddingPlanner/issues">Zgłoś Bug</a>
     ·
-    <a href="https://github.com/epiekarski6666/WeddingPlanner/issues">Request Feature</a>
+    <a href="https://github.com/epiekarski6666/WeddingPlanner/issues">Zgłoś Feature</a>
   </p>
 </p>
 
 
 
-<!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Spis treści</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Wstęp</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -53,7 +50,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Wstęp
 
 We are creating Wedding Planner application using JAVA, HTML and other technologies we learn during last months.
 Basically we install application at Heroku Cloud Application Platform so the only requirement is to have device using web browser application and internet connecction.
