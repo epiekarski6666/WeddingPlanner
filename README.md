@@ -55,7 +55,7 @@
 ## Wstęp
 
 Stworzyliśmy aplikację do zarządzania organizacją ślubu Wedding Planner Piekarscy za pomocą języka programowania JAVA, HTML oraz innych poznanych w ostatnich miesiącach technologii.
-Według założeń projektu aplikacja musi działać na dwóch bądź więcej stanowiskach. Zdecydowaliśmy się więc na użycie Heroku Cloud Application Platform aby poszczególni użytkownicy spełniali swoje role z pełną dostępnością serwisu. 
+<br>Według założeń projektu aplikacja musi działać na dwóch bądź więcej stanowiskach. Zdecydowaliśmy się więc na użycie Heroku Cloud Application Platform aby poszczególni użytkownicy spełniali swoje role z pełną dostępnością serwisu. 
 
 ### Technologie
 
@@ -95,15 +95,15 @@ https://weddingplannerpiekarscy.herokuapp.com/
 #### Uruchomienie
 
 W celu uruchomienia aplikacji lokalnie należy użyć funkcji „Clone” na repozytorium GitHub https://github.com/epiekarski6666/WeddingPlanner/ a następnie wykorzystać pobrany link w IDE aby pobrać projekt. Istnieje również możliwość pobrania spakowanej paczki z projektem za pomocą funkcji „Download ZIP” a następnie otwarcie jej lokalnie (zalecana wersja JAVA 1.8 oraz edytor InteliJ IDEA).
-Po otwarciu projektu należy odczekać aż wszystkie dodatki aplikacyjne używane w projekcie zostaną pobrane oraz pliki zostaną zindeksowane, proces wykonuje się automatycznie.
-Kolejnym krokiem jest uruchomienie aplikacji a dokładnie klasy uruchomieniowej WeddingPlannerApplication.java.
-Następnie w przeglądarce internetowej należy wpisać adres http://localhost:8080/
-Aby móc korzystać z dostępnych funkcji należy zalogować się na jedno z dwóch istniejących kont administratorskich:
-wierzbicka@pw.pl password
-ee@ee.pl password
-lub na istniejące konto użytkownika (obserwatora)
-hapsia@pw.pl password
-Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
+<br>Po otwarciu projektu należy odczekać aż wszystkie dodatki aplikacyjne używane w projekcie zostaną pobrane oraz pliki zostaną zindeksowane, proces wykonuje się automatycznie.
+<br>Kolejnym krokiem jest uruchomienie aplikacji a dokładnie klasy uruchomieniowej WeddingPlannerApplication.java.
+<br>Następnie w przeglądarce internetowej należy wpisać adres http://localhost:8080/
+<br>Aby móc korzystać z dostępnych funkcji należy zalogować się na jedno z dwóch istniejących kont administratorskich:
+<br>wierzbicka@pw.pl password
+<br>ee@ee.pl password
+<br>lub na istniejące konto użytkownika (obserwatora)
+<br>hapsia@pw.pl password
+<br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
 
 ## Funkcje
 
