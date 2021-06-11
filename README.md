@@ -115,8 +115,15 @@ W celu uruchomienia aplikacji lokalnie należy użyć funkcji „Clone” na rep
 
 ## Funkcje
 
+![image](https://user-images.githubusercontent.com/46848957/121738822-06865100-cafb-11eb-9382-943946436151.png)
+![image](https://user-images.githubusercontent.com/46848957/121738899-26b61000-cafb-11eb-9ca2-9056da796a07.png)
+![image](https://user-images.githubusercontent.com/46848957/121739042-5bc26280-cafb-11eb-81df-002a6fc208c9.png)
+![image](https://user-images.githubusercontent.com/46848957/121739087-6bda4200-cafb-11eb-8f1d-5ce3fd632f38.png)
 
 ## Struktura
+
+![image](https://user-images.githubusercontent.com/46848957/121739220-988e5980-cafb-11eb-9780-091e982140aa.png)
+![image](https://user-images.githubusercontent.com/46848957/121739316-b78ceb80-cafb-11eb-85c5-b94acaa6d14e.png)
 
 
 ## Kontakt
