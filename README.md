@@ -9,7 +9,7 @@
   <h3 align="center">Wedding Planner Piekarscy</h3>
 
   <p align="center">
-    Mamy przyjemność zaprezentować wam nasz Weeding Planner
+    Mamy przyjemność zaprezentować Wam nasz Wedding Planner
     <br />
     <a href="https://github.com/epiekarski6666/WeddinPlannerPiekarscy1/blob/master/README.md"><strong>Przeglądaj pliki</strong></a>
     <br />
