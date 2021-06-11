@@ -75,7 +75,7 @@ Major frameworks and technologies:
 
 ### Uruchomienie aplikacji
 
-Wystarczy posiadać dowolne urządzenie z przeglądarka internetową oraz dostępem do Internetu. Aplikacja znajduje się na serwerze Heroku Cloud Application Platform pod adresem:
+Wystarczy posiadać dowolne urządzenie z przeglądarką internetową oraz dostępem do Internetu. Aplikacja znajduje się na serwerze Heroku Cloud Application Platform pod adresem:
 https://weddingplannerpiekarscy.herokuapp.com/
 <br>Aby móc korzystać z dostępnych funkcji należy zalogować się na jedno z dwóch istniejących kont administratorskich:
 <br>
