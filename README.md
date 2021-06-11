@@ -117,8 +117,7 @@ W celu uruchomienia aplikacji lokalnie należy użyć funkcji „Clone” na rep
 ## Struktura
 
 
-## Kontact
-
+## Kontakt
 <br>Martyna Piekarska - [martyna.wierzbicka.stud@pw.edu.pl](martyna.wierzbicka.stud@pw.edu.pl)
 <br>Edwin Piekarski - [edwin.piekarski.stud@pw.edu.pl](edwin.piekarski.stud@pw.edu.pl)
 
