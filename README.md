@@ -86,7 +86,7 @@ https://weddingplannerpiekarscy.herokuapp.com/
 <br>
 <br>hapsia@pw.pl password
 <br>
-<br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
+<br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów).
 
 ### Uruchomienie lokalnie
 
@@ -109,7 +109,7 @@ W celu uruchomienia aplikacji lokalnie należy użyć funkcji „Clone” na rep
 <br>lub na istniejące konto użytkownika (obserwatora)
 <br>hapsia@pw.pl password
 <br>
-<br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
+<br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów).
 
 ## Funkcje
 
