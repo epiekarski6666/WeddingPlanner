@@ -27,7 +27,7 @@
   <summary>Spis treści</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Wstęp</a>
+      <a href="#Wstęp">Wstęp</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
