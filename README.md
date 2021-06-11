@@ -59,7 +59,6 @@ Stworzyliśmy aplikację do zarządzania organizacją ślubu Wedding Planner Pie
 
 ### Technologie
 
-Major frameworks and technologies:
 * [Java](https://www.java.com)
 * [Spring Boot](https://spring.io)
 * [Thymeleaf](https://spring.io)
