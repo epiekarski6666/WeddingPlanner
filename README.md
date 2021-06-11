@@ -77,12 +77,12 @@ Major frameworks and technologies:
 
 Wystarczy posiadać dowolne urządzenie z przeglądarka internetową oraz dostępem do Internetu. Aplikacja znajduje się na serwerze Heroku Cloud Application Platform pod adresem:
 https://weddingplannerpiekarscy.herokuapp.com/
-Aby móc korzystać z dostępnych funkcji należy zalogować się na jedno z dwóch istniejących kont administratorskich:
-wierzbicka@pw.pl password
-ee@ee.pl password
-lub na istniejące konto użytkownika (obserwatora)
-hapsia@pw.pl password
-Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
+<br>Aby móc korzystać z dostępnych funkcji należy zalogować się na jedno z dwóch istniejących kont administratorskich:
+<br>wierzbicka@pw.pl password
+<br>ee@ee.pl password
+<br>lub na istniejące konto użytkownika (obserwatora)
+<br>hapsia@pw.pl password
+<br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów)
 
 ### Uruchomienie lokalnie
 
