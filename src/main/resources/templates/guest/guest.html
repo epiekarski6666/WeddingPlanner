@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../../static/guests/main.js" th:src="@{/guests/main.js}"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Wedding Planner Piekarscy</title>
+    <style type="text/css">
+        .jumbotron {
+            background-image: url("https://images.pexels.com/photos/2008143/pexels-photo-2008143.jpeg");
+            background-size: cover;
+            height: 350px;
+            color: darkolivegreen;
+            text-shadow: #444 0 1px 1px;
+        }
+        .btn {
+            background-color: lightpink;
+        }
+
+        .btn:hover {
+            background-color: lemonchiffon;
+        }
+
+        .td {
+            background-color: lightpink;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="https://www.clipartmax.com/png/middle/91-912013_herz-kontur-schwarz-love-logo-vector.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="">Wedding Planner Piekarscy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/summary">Strona główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tasks/getAll">Lista zadań</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/gifts/getAll">Prezenty</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/guests/getAll">Goście</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/expences/getAll">Budżet</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <a href="/logout" class="btn" role="button" aria-pressed="true">Wyloguj</a>
+    </nav>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Goście</h1>
+        <p class="lead">Kontroluj liczbę gości i ich status</p>
+    </div>
+</div>
+
+<div class="container">
+<div align="center"></div>
+
+<button sec:authorize="hasAnyAuthority('Admin')" type="button" class="btn" data-toggle="modal" data-target="#addModal" >Dodaj nowego gościa</button>
+<div><br></div>
+<table class="table">
+<thead class="thead-dark">
+<tr style="font-weight:bold">
+<td class="td">Numer</td>
+<td class="td">Imię i nazwisko</td>
+<td class="td">Status</td>
+<td sec:authorize="hasAnyAuthority('Admin')" class="td">Edycja</td>
+<td sec:authorize="hasAnyAuthority('Admin')" class="td">Usunięcie</td>
+</tr>
+</thead>
+<tbody>
+<tr th:each="guest:${guests}">
+<td th:text="${guest.Id}">Id</td>
+<td th:text="${guest.name}">Name</td>
+<td th:text="${guest.status}">Status</td>
+<td sec:authorize="hasAnyAuthority('Admin')"><a th:href="@{/guests/getOne/(Id=${guest.Id})}" id="editButton" class="btn">Edytuj</a> </td>
+<td sec:authorize="hasAnyAuthority('Admin')"><a th:href="@{/guests/delete/(Id=${guest.Id})}" id="deleteButton" class="btn">Usuń</a> </td>
+</tr>
+</tbody>
+</table>
+
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <form th:action="@{/guests/addNew}" method="post">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nowy gość</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="form-group">
+            <label for="Id" class="col-form-label" hidden>Numer:</label>
+            <input type="text" class="form-control" id="IdAdd" name="Id" hidden>
+          </div>
+          
+          <div class="form-group">
+            <label for="Id" class="col-form-label">Imię i nazwisko:</label>
+            <input type="text" class="form-control" id="nameAdd" name="name" required>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Zamknij</button>
+        <button type="submit" class="btn">Zapisz</button>
+      </div>
+    </div>
+  </div>
+ </form>
+</div>
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <form th:action="@{/guests/update}" method="put">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Edytuj gościa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="form-group">
+            <label for="Id" class="col-form-label" hidden>Numer:</label>
+            <input type="text" class="form-control" id="IdEdit" name="id" readonly hidden>
+          </div>
+          
+          <div class="form-group">
+            <label for="Id" class="col-form-label">Imię i nazwisko:</label>
+            <input type="text" class="form-control" id="nameEdit" name="name" required>
+          </div>
+
+          <div id="form-group2">
+              <label for="Id" class="col-form-label">Status:</label>
+              <td>
+                  <select class="btn btn-sm dropdown-toggle dropdown-toggle-split" id="ddlselect">
+                      <option th:each="status : ${T(com.piekarscy.weddingplanner.models.Guest.StatusGuest).values()}"
+                              th:value="${status}"
+                              th:text="${status.status3}"
+                      ></option>
+                  </select>
+                  <input type="hidden" class="form-control" readonly="readonly" id="txtresults" name="status"/>
+              </td>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Zamknij</button>
+        <button type="submit" class="btn">Zapisz</button>
+      </div>
+    </div>
+  </div>
+ </form>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="deleteModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Potwierdź usunięcie</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Czy na pewno chcesz usunąć tę pozycję?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="" id="delRef" class="btn">Tak, Usuń</a>
+        <button type="button" class="btn" data-dismiss="modal">Zamknij</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

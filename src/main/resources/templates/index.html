@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Wedding Planner Piekarscy</title>
+
+<!--    STYLE CSS-->
+    <style type="text/css">
+        .jumbotron {
+            background-image: url("https://images.pexels.com/photos/2008143/pexels-photo-2008143.jpeg");
+            background-size: cover;
+            height: 350px;
+            color: darkolivegreen;
+            text-shadow: #444 0 1px 1px;
+        }
+
+        .btn {
+            background-color: lightpink;
+        }
+
+        .btn:hover {
+            background-color: lemonchiffon;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--NAWIGACJA-->
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="https://www.clipartmax.com/png/middle/91-912013_herz-kontur-schwarz-love-logo-vector.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="">Wedding Planner Piekarscy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/summary">Strona główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tasks/getAll">Lista zadań</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/gifts/getAll">Prezenty</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/guests/getAll">Goście</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/expences/getAll">Budżet</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!--JUMBOTRON-->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Wedding Planner</h1>
+        <p class="lead">Martyna i Edwin Piekarscy</p>
+    </div>
+</div>
+
+<!--PRZYCISKI LOGOWANIE I REJESTRACJA-->
+<div class="container">
+    <div>
+
+        <div class="container text-center">
+                <h3>Witaj w planerze ślubnym!</h3>
+            <p>
+                Zaloguj się lub załóż konto, aby przeglądać treści.
+            </p>
+            </div>
+
+        <a class="btn btn-lg btn-block" href="/login" role="button">Zaloguj się</a>
+        <a class="btn btn-lg btn-block" href="/register" role="button">Zarejestruj się</a>
+
+    </div>
+</div>
+
+</body>
+</html>
