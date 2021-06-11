@@ -36,8 +36,12 @@
     <li>
       <a href="#Uruchomienie">Uruchomienie</a>
       <ul>
-        <li><a href="#Wymagania wstępne">Wymagania wstępne</a></li>
+        <li><a href="#Uruchomienie aplikacji">Uruchomienie aplikacji</a></li>
         <li><a href="#Uruchomienie lokalnie">Uruchomienie lokalnie</a></li>
+          <ul>
+            <li><a href="#Wymagania wstępne">Wymagania wstępne</a></li>
+            <li><a href="#Uruchomienie">Uruchomienie</a></li>
+          </ul>
       </ul>
     </li>
     <li><a href="#Funkcje">Funkcje</a></li>
@@ -66,16 +70,17 @@ Major frameworks and technologies:
 
 ## Uruchomienie
 
+### Uruchomienie aplikacji
 
+### Uruchomienie lokalnie
 
-### Wymagania wstępne
+#### Wymagania wstępne
 
 Zalecana wersja Java 1.8
 Zalecane do dodanie zmiennych środowiskowych ścieżek Java 1.8
 Posiadany edytor kodu (zalecany InteliJ IDEA)
 
-### Uruchomienie lokalnie
-
+#### Uruchomienie
 
 ## Funkcje
 
