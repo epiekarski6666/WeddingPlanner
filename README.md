@@ -119,9 +119,9 @@ W celu uruchomienia aplikacji lokalnie należy użyć funkcji „Clone” na rep
 
 ## Kontact
 
-Martyna Piekarska - [martyna.wierzbicka.stud@pw.edu.pl](martyna.wierzbicka.stud@pw.edu.pl)
-Edwin Piekarski - [edwin.piekarski.stud@pw.edu.pl](edwin.piekarski.stud@pw.edu.pl)
+<br>Martyna Piekarska - [martyna.wierzbicka.stud@pw.edu.pl](martyna.wierzbicka.stud@pw.edu.pl)
+<br>Edwin Piekarski - [edwin.piekarski.stud@pw.edu.pl](edwin.piekarski.stud@pw.edu.pl)
 
 
-Project Link: [https://github.com/epiekarski6666/WeddingPlanner]
+<br>Project Link: [https://github.com/epiekarski6666/WeddingPlanner]
 
