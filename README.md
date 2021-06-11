@@ -108,6 +108,7 @@ W celu uruchomienia aplikacji lokalnie należy użyć funkcji „Clone” na rep
 <br>ee@ee.pl password
 <br>
 <br>lub na istniejące konto użytkownika (obserwatora)
+<br>
 <br>hapsia@pw.pl password
 <br>
 <br>Można również zarejestrować nowego użytkownika przechodząc przez proces rejestracji (tylko dla obserwatorów).
