@@ -88,9 +88,9 @@ Można również zarejestrować nowego użytkownika przechodząc przez proces re
 
 #### Wymagania wstępne
 
-Zalecana wersja Java 1.8
-Zalecane do dodanie zmiennych środowiskowych ścieżek Java 1.8
-Posiadany edytor kodu (zalecany InteliJ IDEA)
+* Zalecana wersja Java 1.8
+* Zalecane do dodanie zmiennych środowiskowych ścieżek Java 1.8
+* Posiadany edytor kodu (zalecany InteliJ IDEA)
 
 #### Uruchomienie
 
